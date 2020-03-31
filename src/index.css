@@ -1,0 +1,54 @@
+:root {
+  --grey: rgb(170, 170, 170);
+  --yellow: rgb(215, 215, 70);
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 80px;
+  padding-bottom: 120px;
+  color: var(--grey)
+}
+
+h1, h2 {
+  background: linear-gradient(to right, var(--grey), var(--yellow));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  padding-top: 160px;
+  padding-bottom: 16px;
+  border-bottom: 1px var(--yellow) solid;
+  margin-bottom: 10px;
+}
+
+a {
+  text-decoration: inherit;
+  color: inherit;
+}
+
+a:hover {
+  background: linear-gradient(to right, black, var(--yellow));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+p {
+  color: var(--grey);
+  margin-top: 5px;
+  margin-bottom: 40px;
+}
